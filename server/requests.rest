@@ -1,0 +1,39 @@
+# POST http://localhost:3000/signin
+# Content-Type: application/json
+
+# {
+#     "email": "keerthisreekonkimalla24@gmail.com",
+#     "password":"Keerthi1"
+    
+# }
+
+POST http://localhost:3000/user-written-blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjYzMDliYzgwMzM2MjE2NWE3N2E5ZiIsImlhdCI6MTcxMjMxMTEzNn0.2ONo21Gtg8WtXYzsKkAiXU9qH-LT_Mv4IkFa_BjBAdg
+Content-Type: application/json
+
+{
+    "page":1,
+    "draft":true
+
+}
+
+# "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjYzMDliYzgwMzM2MjE2NWE3N2E5ZiIsImlhdCI6MTcxMjIwODk5OH0.pOAqE6IGSXUuuCpdsqTOryAuS7rQQzITBcpbYe6H8fA"
+
+# POST http://localhost:3000/change-password
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjYzMDliYzgwMzM2MjE2NWE3N2E5ZiIsImlhdCI6MTcxMjE0NDI3NH0.u4a33amZcErzu2eqyjVxX_5AWIHIBn2bhCUazxxdAkY 
+
+# {
+#    "currentPassword":"Keerthi1",
+#    "newPassword":"Keerthi2"
+    
+# }
+# POST http://localhost:3000/
+# Content-Type: application/json
+
+# {
+#     "blog_id": "sih-ideathonjaiRadAg1lcB381N1hxqs"
+    
+# }
+
+# GET http://localhost:3000/trending-blogs
